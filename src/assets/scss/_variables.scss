@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Heebo:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+$font-family-sans-serif: 'Quicksand';
+$headings-font-family: 'Heebo';
+$title-font-family: "Covered By Your Grace";
+
+$white: #ffffff;
+
+$light: #d8f9f2;
+$dark: #010101;
+$primary: #cc0000;
+$secondary: #00cccc;
+$info: #07d5ec;
+$tertiary: #d69d46;
+$accent1: #ec4141;
+$accent2: #83d6f9;
+$success: #6ec100;
+$warning: #ffc989;
+$danger: #ff016c;
+
+$theme-colors: (
+    "light":      #d8f9f2,
+    "dark":       #010101,
+    "primary":    #cc0000,
+    "secondary":  #00cccc,
+    "info":       #07d5ec,
+    "accent1":    #d69d46,
+    "accent2":    #ec4141,
+    "accent3":    #83d6f9,
+    "success":    #6ec100,
+    "warning":    #ffc989,
+    "danger":     #ff016c,
+);

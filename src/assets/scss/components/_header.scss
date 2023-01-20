@@ -1,0 +1,30 @@
+.header-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $dark;
+
+    ul {
+        display: flex;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: .8rem;
+        font-weight: 700;
+        padding: 0 .5rem;
+        color: $secondary;
+        transition: all .2s linear;
+
+        &:hover {
+            color: $primary;
+        }
+
+        i {
+            margin-right: 5px;
+        }
+    }
+}

@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from 'react-router-dom' 
 import { makeServer } from './server';
+import './assets/scss/styles.scss'
+import './assets/fonts/cpt-icon-v1.0/style.css';
 
 if (process.env.NODE_ENV === "development") {
   makeServer({environment:'development'})
